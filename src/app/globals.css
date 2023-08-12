@@ -22,11 +22,11 @@
 
 @keyframes gradient {
   0% {
-    --angle: 45deg;
+    --angle: calc(var(--angle) + 5deg);
     background-position: 0%;
   }
   100% {
-    --angle: calc(var(--angle) + 90deg);
+    --angle: calc(var(--angle) + 5deg);
     background-position: 100%;
   }
 }

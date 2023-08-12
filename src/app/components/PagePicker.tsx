@@ -109,7 +109,7 @@ const PagePicker = () => {
             <button onClick={openRandomLink} className="border-2 text-2xl py-1 px-12 m-5 shad rounded-md transition z-[20]">please</button>
 
 
-            <Link href="/links"><p className="absolute right-0 bottom-0 px-4 py-2 z-[20] hover:underline">Links</p></Link>
+            <p className="absolute right-0 bottom-0 px-4 py-2 z-[20] hover:underline"><a href="/links">Links</a></p>
         </div>
     );
 }

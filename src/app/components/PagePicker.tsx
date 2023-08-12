@@ -105,7 +105,7 @@ const PagePicker = () => {
 
     return (
         <div className="h-screen w-full p-5 text-white  flex flex-col justify-center items-center z-[20]">
-            <h1 className="text-4xl font-semibold leading-tight z-[20]">lets go to a useless website.</h1>
+            <h1 className="text-4xl font-semibold leading-tight text-center z-[20]">lets go to a useless website.</h1>
             <button onClick={openRandomLink} className="border-2 text-2xl py-1 px-12 m-5 shad rounded-md transition z-[20]">please</button>
 
 
